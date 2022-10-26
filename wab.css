@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family:century Gothic ;
+}
+header{
+    background-image: url("https://images.unsplash.com/photo-1414872785488-7620d2ae7566?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    height: 100vh;
+    background-size: cover;  
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    
+}
+ul li {
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(0, 251, 255);
+    padding: 10px 20px ;
+    border: 1px solid transparent;
+    transition: 0.2s ease;
+    border-radius: 70px;
+}
+ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(234, 0, 255);
+
+}
+ul li .active a{
+    background-color: white;
+    color: rgb(9, 255, 91);
+
+}
+.logo img {
+    float: left ;
+    width: 100px;
+    height: auto;
+    margin-top: 30px; 
+    margin-right: 20px;
+    border-radius: 80px;
+    
+}
+.main {
+    max-width: 1500px;
+    margin: auto;
+}
+.title {
+    position:absolute;
+     top: 50% ;
+     left: 50%;
+    transform: translate(-50% ,-50%);
+    color: rgb(0, 30, 255);
+    width: 70px;
+
+}
+.button{
+    position:absolute;
+     top: 62% ;
+     left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.btn{
+border: 1px solid rgb(255, 255, 255);
+padding: 15px 40px ;
+color: #88f001;
+text-decoration: none;
+transition: 0.3s ease;
+}
+.btn:hover {
+ background-color: #fff;  
+ color: #000;
+
+}
